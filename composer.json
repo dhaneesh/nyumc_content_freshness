@@ -1,12 +1,15 @@
 {
   "name": "drupal/nyumc_content_freshness",
-  "type": "drupal-custom-module",
+  "type": "drupal-module",
   "description": "NYUMC Content freshness module tp provide content freshness API endpoints",
   "keywords": ["Drupal"],
-  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
   "support": {
     "issues": "http://drupal.org/project/issues/nyumc_content_freshness",
     "source": "http://cgit.drupalcode.org/nyumc_content_freshness"
   },
   "require": { },
+  "extra": {
+      "installer-name": "nyumc_content_freshness"
+  }
 }
