@@ -1,6 +1,6 @@
 {
-  "name": "nyumc/nyumc_content_freshness",
-  "type": "drupal-custom-module",
+  "name": “drupal/nyumc_content_freshness",
+  "type": "drupal-module",
   "description": "NYUMC Content freshness module tp provide content freshness API endpoints",
   "keywords": ["Drupal"],
   "minimum-stability": "dev",
