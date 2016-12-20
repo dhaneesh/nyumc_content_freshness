@@ -1,5 +1,5 @@
 {
-  "name": “drupal/nyumc_content_freshness",
+  "name": "drupal/nyumc_content_freshness",
   "type": "drupal-module",
   "description": "NYUMC Content freshness module tp provide content freshness API endpoints",
   "keywords": ["Drupal"],
