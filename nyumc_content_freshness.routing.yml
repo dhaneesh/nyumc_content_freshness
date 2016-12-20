@@ -1,0 +1,12 @@
+nyumc_content_freshness.getsummary:
+  path: 'api/v1/contentsummary'
+  defaults: { _controller: '\Drupal\nyumc_content_freshness\Controller\ContentSummaryController::getContentSummary' }
+  methods:  [GET]
+  requirements:
+    _access: 'TRUE'
+nyumc_content_freshness.gettuning:
+  path: 'api/v1/freshtuning/{month}'
+  defaults: { _controller: '\Drupal\nyumc_content_freshness\Controller\FreshTuningController::getContentStatusByMonths' }
+  methods:  [GET]
+  requirements:
+    _access: 'TRUE'

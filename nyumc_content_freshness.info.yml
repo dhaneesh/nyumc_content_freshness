@@ -1,0 +1,5 @@
+name: NYUMC Content Freshness
+type: module
+description: NYUMC Content freshness module tp provide content freshness API endpoints
+core: 8.x
+package: NYUMC

@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ *
+ * Contains nyumc_content_freshness.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function nyumc_content_freshness_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the nyumc_content_freshness module.
+    case 'help.page.nyumc_content_freshness':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('NYUMC Content freshness module tp provide content freshness API endpoints') . '</p>';
+      return $output;
+
+    default:
+  }
+}
